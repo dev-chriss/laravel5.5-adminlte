@@ -84,10 +84,11 @@ Open browser at [localhost:8000/admin](http://localhost:8000)
 
 ## Page size optimization:
 - Using [Laravel Mix](http://laravel.com/docs/master/mix), all CSS and JS are in minified to one file each.
-- LaraLTE2 leverages browser caching, using .htaccess file from html5-boilerplate
-- GZip compression is activated by default(APP_DEBUG=false => only onfile for js, and one file for css).
-  admin-HASH.css: 63.9KB with gzip (376.5Kb without)
-  admin-HASH.js : 99KB with gzip (318.9Kb without)
+- Leverages browser caching, using `.htaccess` file from [html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
+- GZip compression is activated by default(APP_DEBUG=false => only onfile for js, and one file for css).  
+  - `admin-HASH.css`: 63.9KB with gzip (376.5Kb without)  
+  - `admin-HASH.js` : 99KB with gzip (318.9Kb without)
+
 
 #FAQ
 
