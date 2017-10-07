@@ -24,12 +24,12 @@ npm run production                 # To compile assets for prod
 run `php artisan serve`  
 Open browser at [localhost:8000/admin](http://localhost:8000)
 
-**Note:**  
-- Superadmin
+**Login credentials:**  
+- Superadmin ->  
   Username: superadmin@fake.com 
   Password: 123456
 
-- User
+- User ->
   Username: user@fake.com 
   Password: 123456
 
