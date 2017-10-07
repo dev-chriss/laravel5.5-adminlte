@@ -25,15 +25,13 @@ run `php artisan serve`
 Open browser at [localhost:8000/admin](http://localhost:8000)
 
 **Note:**  
-Superadmin
+- Superadmin
+  Username: superadmin@fake.com 
+  Password: 123456
 
-Username: superadmin@fake.com 
-Password: 123456
-
-User
-
-Username: user@fake.com 
-Password: 123456
+- User
+  Username: user@fake.com 
+  Password: 123456
 
 > All the data are reset each 30mn ;)
 > **please d'ont forget to remove [this](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app/Console/Kernel.php#L27-L28) function in your app**
