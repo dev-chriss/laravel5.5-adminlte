@@ -25,11 +25,13 @@ run `php artisan serve`
 Open browser at [localhost:8000/admin](http://localhost:8000)
 
 **Note:**  
-Superadmin 
+Superadmin
+
 Username: superadmin@fake.com 
 Password: 123456
 
 User
+
 Username: user@fake.com 
 Password: 123456
 
