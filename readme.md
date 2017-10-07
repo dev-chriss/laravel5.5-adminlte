@@ -69,6 +69,10 @@ Password: 123456
 
 ## Page size optimization:
 - Using [Laravel Mix](http://laravel.com/docs/master/mix), all CSS and JS are in minified to one file each.
+- LaraLTE2 leverages browser caching, using .htaccess file from html5-boilerplate
+- GZip compression is activated by default(APP_DEBUG=false => only onfile for js, and one file for css).
+  admin-HASH.css: 63.9KB with gzip (376.5Kb without)
+  admin-HASH.js : 99KB with gzip (318.9Kb without)
 
 #FAQ
 
@@ -81,8 +85,8 @@ Creating CRUD in your application is the job you do most. Let's create Post CRUD
 * Duplicate `resource/views/admin/categories` folder to `posts`, make changes in `index.php`, `create.blade.php`, `edit.blade.php`
 
 #### Move Image and file ?
-To move images using a [helper](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app/Http/helpers.php#L4) function based on [intervention/image](https://github.com/intervention/image) and [variables.php](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/config/variables.php#L15)
-you can check full example in [User.php](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app/User.php#L73)
+To move images using a [helper](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app/Http/helpers.php#L4) function based on [intervention/image](https://github.com/intervention/image) and [variables.php](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/config/variables.php#L22)
+check full example in [User.php](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app/User.php#L95)
 
 
 #### Create new REST API
