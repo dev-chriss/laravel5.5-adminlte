@@ -47,7 +47,7 @@ Open browser at [localhost:8000/admin](http://localhost:8000)
 * Authentication, register, forgot password
 * User Management, activate/deactivate user, user pictures
 * CRUD example with datatable
-* [Multi role user](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/config/variables.php#L10) (Superadmin, Admin, Manager, User)
+* [Multi role user](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/config/variables.php#L10) (Superadmin, Admin, Manager, User)
 * [Route protection role based](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/routes/web.php#L21)
 * [Global function](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app//Helpers/Helper.php#L3)
 
