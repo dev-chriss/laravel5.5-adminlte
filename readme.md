@@ -40,7 +40,6 @@ Open browser at [localhost:8000/admin](http://localhost:8000)
 > All the data are reset each 30mn ;)
 > **please d'ont forget to remove [this](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app/Console/Kernel.php#L27-L28) function in your app**
 
-***
 
 ## Feature:
 
@@ -51,7 +50,6 @@ Open browser at [localhost:8000/admin](http://localhost:8000)
 * [Route protection role based](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/routes/web.php#L21)
 * [Global function](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app//Helpers/Helper.php#L3)
 
-***
 
 ## Included Packages:
 #### Laravel (php):
