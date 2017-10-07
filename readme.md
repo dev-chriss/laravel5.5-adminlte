@@ -1,9 +1,9 @@
-# Laravel55-adminLTE
+# Laravel5.5-adminLTE
 **_[Laravel 5.5](https://laravel.com/) PHP Framework with [AdminLTE2](https://almsaeedstudio.com/AdminLTE)_**  
 
 
 ## Setup:
-All you need is to run these commands:
+
 ```bash
 git clone https://github.com/chrissetyawan/laravel5.5-adminlte.git projectname
 cd projectname
@@ -19,7 +19,7 @@ npm run production                 # To compile assets for prod
 
 
 ## Demo:
-- Online demo: Can be found at [laravel55-adminLTE](http://laravel55-adminLTE.setyawan.pro)
+- Online demo: Can be found at [laravel5.5-adminLTE](http://laravel55-adminLTE.setyawan.pro)
 - Local demo:  
 run `php artisan serve`  
 Open browser at [localhost:8000/admin](http://localhost:8000)
@@ -111,4 +111,4 @@ Rest Controllers are in the `App\Http\Controllers\Api` namespace.
 * Add documentation block ([documentation](http://apidocjs.com/#example-full))
 * Install ApiDoc via npm, run: `npm install apidoc -g` (only first time)
 * Run this command : `apidoc -i app/Http/Controllers/Api/ -o public/api/ -t resources/apiTemplate/`
-* That's all :)
+
