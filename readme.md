@@ -10,6 +10,7 @@ cd projectname
 composer install                   # Install backend dependencies
 sudo chmod 777 storage/ -R         # Chmod Storage
 cp .env.example .env               # Update database credentials configuration
+                                     (Dont forget to create database name following credentials configuration)
 php artisan key:generate           # Generate new keys for Laravel
 php artisan migrate:refresh --seed # Run migration and seed users and categories for testing
 yarn install                       # Install node dependencies
@@ -20,11 +21,16 @@ npm run production                 # To compile assets for prod
 ## Demo:
 - Online demo: Can be found at [laravel55-adminLTE](http://laravel55-adminLTE.setyawan.pro)
 - Local demo:  
-`php artisan serve                  # Check installation (optional)`  
+run `php artisan serve`  
 Open browser at [localhost:8000/admin](http://localhost:8000/admin)
 
 **Note:**  
-Username: admin@admin.com  
+Superadmin 
+Username: superadmin@fake.com 
+Password: 123456
+
+User
+Username: user@fake.com 
 Password: 123456
 
 > All the data are reset each 30mn ;)
