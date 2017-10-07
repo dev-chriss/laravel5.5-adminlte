@@ -25,12 +25,12 @@ run `php artisan serve`
 Open browser at [localhost:8000/admin](http://localhost:8000)
 
 **Login credentials:**  
-- Superadmin ->  
-  Username: superadmin@fake.com 
+- Superadmin
+  Username: superadmin@fake.com  
   Password: 123456
 
-- User ->
-  Username: user@fake.com 
+- User
+  Username: user@fake.com  
   Password: 123456
 
 > All the data are reset each 30mn ;)
