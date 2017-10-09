@@ -19,7 +19,6 @@ npm run production                 # To compile assets for prod
 
 
 ## Demo:
-- Online demo: Can be found at [laravel5.5-adminLTE](http://laravel55-adminLTE.setyawan.pro)
 - Local demo:  
 run `php artisan serve`  
 Open browser at [localhost:8000/admin](http://localhost:8000)
@@ -38,7 +37,7 @@ Open browser at [localhost:8000/admin](http://localhost:8000)
   ```
   
 > All the data are reset each 30mn ;)
-> **please d'ont forget to remove [this](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app/Console/Kernel.php#L27-L28) function in your app**
+> **please dont forget to remove [this](https://github.com/chrissetyawan/laravel5.5-adminlte/blob/master/app/Console/Kernel.php#L27-L28) function in your app**
 
 
 ## Feature:
