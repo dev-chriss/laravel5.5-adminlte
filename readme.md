@@ -23,6 +23,9 @@ npm run production                 # To compile assets for prod
 run `php artisan serve`  
 Open browser at [localhost:8000/admin](http://localhost:8000)
 
+- Live demo:  
+Open browser at [http://laravel55-adminlte.setyawan.pro/](http://laravel55-adminlte.setyawan.pro/)
+
 **Login credentials:**  
 - Superadmin
   ```bash
