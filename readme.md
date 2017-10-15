@@ -27,8 +27,9 @@ Open browser at [localhost:8000/admin](http://localhost:8000)
 Open browser at [http://laravel55-adminlte.setyawan.pro/](http://laravel55-adminlte.setyawan.pro/)
 
 **Login credentials:**  
-* please dont change this two users credential.
-* u can add new user or modify other users.
+
+please dont change this two users credential.
+u can add new user or modify other users.
 
 - Superadmin
   ```bash
